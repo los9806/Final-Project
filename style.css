@@ -1,0 +1,183 @@
+.title {
+    background: linear-gradient(rgba(246, 12, 12, 0.955), rgba(162, 88, 88, 0.729));
+    color: gold;
+    margin: 10px;
+    padding: 15px;
+    align-items: center;
+    border-style: solid;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: rgb(27, 79, 130);
+    border-radius: 10px;
+    font-family: "Nerko One";
+    text-align: center;
+}
+
+body {
+    background-image: url(images/pokeback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main {
+    background-image: url(images/pokeball.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border: 4px solid black;
+    border-radius: 10px;
+    /*background-color: slategrey;*/
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#pokeInfo {
+    width: 250px;
+    height: 500px;
+    /*background-color: darkorchid;*/
+    text-align: center;
+}
+
+#pokeList {
+    width: 250px;
+    height: 500px;
+    /*background-color: cadetblue;*/
+    font-size: 18px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokeInfo img{
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: ghostwhite;
+}
+
+#pokeType {
+    margin-top: 10px;
+}
+
+.typeBox {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid ghostwhite;
+    border-radius: 10px;
+}
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: ghostwhite;
+}
+
+.grass {
+    background-color: green;
+    color: ghostwhite;
+}
+
+.water {
+    background-color: blue;
+    color: ghostwhite;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: ghostwhite;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: ghostwhite;
+}
+
+.ghost {
+    background-color: purple;
+    color: ghostwhite;
+}
+
+.rock {
+    background-color: sienna;
+    color: ghostwhite;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: ghostwhite;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: ghostwhite;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: ghostwhite;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: ghostwhite;
+}
+
+#pokeDescription {
+    width: 230px;
+    height: 100px;
+    background-color: ghostwhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+
